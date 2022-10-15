@@ -1,0 +1,56 @@
+body{
+    padding: 0px;
+    /* margin: 0px; */
+}
+.container{
+    position: relative;
+    /* top: 3vh; */
+    display: flex;
+    height: 500px;
+    justify-content: center;
+}
+.image{
+    background-image: url("clock.webp");
+    height: 450px;
+    background-repeat: no-repeat;
+    border-color: black;
+    width: 500px;
+    display: flex;
+    border-radius: 50%;
+    background-color: white;
+    /* justify-content: center; */
+}
+.secondaxis{
+    width: 3px;
+    height: 330px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 245px;
+    position: fixed;
+    border-radius: 6px;
+}
+.minaxis{
+    width: 3px;
+    height: 330px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 245px;
+    position: fixed;
+    border-radius: 6px;
+}
+.houraxis{
+    width: 3px;
+    height: 330px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 245px;
+    position: fixed;
+    border-radius: 16px;
+}
+h1{
+    text-align: center;
+    font-size:70px;
+    font-family: "Shadows Into Light";
+    letter-spacing: 4px;
+    margin-bottom: 0px;
+}
