@@ -50,8 +50,17 @@ body{
 }
 h1{
     text-align: center;
-    font-size:70px;
+    font-size:60px;
     font-family: "Shadows Into Light";
     letter-spacing: 4px;
     margin-bottom: 0px;
+}
+.timefield{
+    height: 100px;
+    /* border: 2px solid black; */
+    /* position: fixed; */
+    top: 82vh;
+    /* left: 5vw; */
+    display: flex;
+    text-align: center;
 }
