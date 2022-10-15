@@ -18,13 +18,14 @@ body{
     display: flex;
     border-radius: 50%;
     background-color: white;
+    position: fixed;
     /* justify-content: center; */
 }
 .secondaxis{
     width: 3px;
     height: 330px;
     background-color: black;
-    margin-top: 30px;
+    margin-top: 83px;
     margin-left: 245px;
     position: fixed;
     border-radius: 6px;
@@ -33,7 +34,7 @@ body{
     width: 3px;
     height: 330px;
     background-color: black;
-    margin-top: 30px;
+    margin-top: 83px;
     margin-left: 245px;
     position: fixed;
     border-radius: 6px;
@@ -42,7 +43,7 @@ body{
     width: 3px;
     height: 330px;
     background-color: black;
-    margin-top: 30px;
+    margin-top: 83px;
     margin-left: 245px;
     position: fixed;
     border-radius: 16px;
