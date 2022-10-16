@@ -23,27 +23,27 @@ body{
 }
 .secondaxis{
     width: 3px;
-    height: 330px;
+    height: 200px;
     background-color: black;
-    margin-top: 83px;
+    margin-top: 145px;
     margin-left: 245px;
     position: fixed;
     border-radius: 6px;
 }
 .minaxis{
     width: 3px;
-    height: 330px;
+    height: 230px;
     background-color: black;
-    margin-top: 83px;
+    margin-top: 133px;
     margin-left: 245px;
     position: fixed;
     border-radius: 6px;
 }
 .houraxis{
     width: 3px;
-    height: 330px;
+    height: 250px;
     background-color: black;
-    margin-top: 83px;
+    margin-top: 123px;
     margin-left: 245px;
     position: fixed;
     border-radius: 16px;

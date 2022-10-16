@@ -11,6 +11,9 @@ var time = document.getElementById("time");
 let secondAxis = document.getElementById("secAxis");
 let minAxis = document.getElementById("minAxis");
 let hourAxis = document.getElementById("hourAxis");
+let img1 = document.getElementById("img1");
+let img2 = document.getElementById("img2");
+let img3 = document.getElementById("img3");
 secAxis.style.transform = "rotate(" + (d * 6) + "deg)";
 minAxis.style.transform = "rotate(" + (b1) + "deg)";
 hourAxis.style.transform = "rotate(" + (c1) + "deg)";
@@ -20,9 +23,8 @@ setInterval(function () {
     let n = date.getMinutes();
     let o = date.getHours();
     secondAxis.style.transform = "rotate(" + (m * 6) + "deg)";
-    minAxis.style.transform = "rotate(" + (n * 6) + "deg)";
+    minAxis.style.transform = "rotate(" + (n* 6) + "deg)";
     hourAxis.style.transform = "rotate(" + (o* 30) + "deg)";
-    // console.log(o+"hr"+n+" min"+m+"sec");
     var time = document.getElementById("time");
     if (m < 10) {
         m = "0" + m;
